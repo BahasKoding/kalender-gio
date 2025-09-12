@@ -318,69 +318,6 @@
       text-align: center;
     }
 
-    /* Wider numeric inputs for statistics */
-    table input[type="number"] {
-      min-width: 90px;
-      /* Base minimum width */
-    }
-
-    /* Column specific widths */
-    table th:nth-child(6) {
-      /* Views column */
-      min-width: 120px;
-    }
-
-    table th:nth-child(7) {
-      /* Watch Time column */
-      min-width: 140px;
-    }
-
-    table th:nth-child(8) {
-      /* CTR column */
-      min-width: 100px;
-    }
-
-    table th:nth-child(9) {
-      /* Retention column */
-      min-width: 120px;
-    }
-
-    table th:nth-child(10) {
-      /* Revenue column */
-      min-width: 160px;
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-
-      /* Make table wider on mobile to accommodate larger inputs */
-      table {
-        min-width: 1200px;
-      }
-
-      /* Slightly smaller on mobile but still readable */
-      table input[type="number"] {
-        min-width: 80px;
-        font-size: 13px;
-      }
-    }
-
-    @media (min-width: 769px) and (max-width: 1024px) {
-
-      /* Tablet sizes */
-      table input[type="number"] {
-        min-width: 85px;
-      }
-    }
-
-    @media (min-width: 1025px) {
-
-      /* Desktop sizes */
-      table input[type="number"] {
-        min-width: 90px;
-      }
-    }
-
     /* Mobile specific */
     @media (max-width: 768px) {
       .container {
