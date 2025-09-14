@@ -510,3 +510,16 @@
   .cta-banner { flex-direction: column; align-items: stretch; }
   .cta-actions { justify-content: space-between; }
 }
+
+/* CTA Button Hijau */
+.btn.cta-green {
+  background: #10b981;     /* hijau emerald */
+  border-color: #10b981;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn.cta-green:hover {
+  background: #059669;     /* lebih gelap saat hover */
+  border-color: #059669;
+}
