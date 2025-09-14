@@ -486,12 +486,16 @@
 
 .cta-bottom {
   position: fixed;
-  left: 12px;
-  right: 12px;
-  bottom: 12px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 60;
   background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border-top: 1px solid var(--border);
+  border-radius: 0;
+  margin: 0;
 }
+
 
 .cta-copy { flex: 1; min-width: 200px; }
 .cta-title { font-weight: 800; font-size: clamp(14px, 2.8vw, 18px); margin-bottom: 2px; }
